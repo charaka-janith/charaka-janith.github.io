@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 styles="color:red;">DARK SL</h1>
-      </header>
-    </div>
+    <main className="bg-gray-800">
+      <Navbar/>
+      <Banner/>
+    </main>
   );
 }
 
