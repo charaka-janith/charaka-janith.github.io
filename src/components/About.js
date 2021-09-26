@@ -1,7 +1,7 @@
 import man_dance from '../assets/gifs/man_dance.gif'
 import Typical from 'react-typical'
 
-export default function Banner() {
+export default function About() {
   return (
     <section id="Banner">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
