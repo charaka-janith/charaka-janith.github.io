@@ -5,6 +5,7 @@
 }
 :root {
   font-family: '1942' !important;
+  overflow-x: hidden;
 }
 /* fonts end */
 /* tailwind start */
