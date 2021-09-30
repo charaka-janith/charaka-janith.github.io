@@ -22,7 +22,7 @@ export default function Banner() {
               loop={Infinity}
               wrapper="b"
               steps={[
-                'programming', 2000, 'pentesting', 2000, 'planning', 2000, 'martial arts', 2000, 'technologies', 2000, 'social works', 2000, 'algorithems', 2000, 'teamwork', 2000, 'coding', 2000, 'listening', 2000, 'walking', 2000, 'organizing', 2000, 'dogs', 2000, 'cars', 2000, 'teaching', 2000
+                'programming', 2000, 'pentesting', 2000, 'planning', 2000, 'martial arts', 2000, 'technologies', 2000, 'social works', 2000, 'algorithems', 2000, 'teamwork', 2000, 'coding', 2000, 'listening', 2000, 'walking', 2000, 'organizing', 2000, 'dogs', 2000, 'cars', 2000, 'teaching', 2000, 'anime', 2000
               ]}
             />
           </h1>
