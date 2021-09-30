@@ -3,8 +3,15 @@ import Typical from 'react-typical'
 
 export default function Banner() {
   return (
-    <section id="Banner" className="sticky z-10">
+    <section id="Banner">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded"
+            alt="man dance"
+            src={man_dance}
+          />
+        </div>
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">
             Hey, I'm CHARAKA.
@@ -25,22 +32,15 @@ export default function Banner() {
             IT'S GENUINE PERFORMANCE
           </p>
           <div className="flex justify-center">
-            <a href="#contact" className="inline-flex text-white hover:text-white bg-white hover:bg-gray-800 border-0 py-2 px-6 focus:outline-none rounded text-lg text-gray-700 font-bold">
+            <a href="#contact"
+              className="sticky z-10 inline-flex text-white hover:text-gray-700 bg-gray-800 hover:bg-white border-0 py-2 px-6 focus:outline-none rounded text-lg font-bold">
               Contact Me
             </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-gray-700 font-bold rounded text-lg">
+            <a href="#projects"
+              className="sticky z-10 ml-4 inline-flex text-gray-700 hover:text-white bg-white hover:bg-gray-800 border-0 py-2 px-6 focus:outline-none font-bold rounded text-lg">
               Get CV
             </a>
           </div>
-        </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="man dance"
-            src={man_dance}
-          />
         </div>
       </div>
     </section>
