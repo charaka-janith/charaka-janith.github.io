@@ -1,6 +1,5 @@
 import './App.css';
 import { Sugar } from 'react-preloaders';
-import { Scrollbars } from 'react-custom-scrollbars';
 // components
 import About from './components/About';
 import Banner from './components/Banner';
@@ -12,11 +11,9 @@ function App() {
   return (
     <main className="bg-gray-800">
       <Cursor/>
-      <Scrollbars>
-        <Navbar/>
-        <Banner/>
-        <About/>
-      </Scrollbars>
+      <Navbar/>
+      <Banner/>
+      <About/>
       <Sugar
         time={1000}
         color={'rgba(31, 41, 55, 1)'}
