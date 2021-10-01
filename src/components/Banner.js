@@ -33,12 +33,8 @@ export default function Banner() {
           </p>
           <div className="flex justify-center">
             <a href="#contact"
-              className="sticky z-10 inline-flex text-white hover:text-gray-700 bg-gray-800 hover:bg-white border-0 py-2 px-6 focus:outline-none rounded text-lg font-bold">
+              className="sticky z-10 inline-flex text-white hover:text-gray-700 hover:bg-white border-0 py-2 px-6 focus:outline-none rounded text-lg font-bold">
               Contact Me
-            </a>
-            <a href="#projects"
-              className="sticky z-10 ml-4 inline-flex text-gray-700 hover:text-white bg-white hover:bg-gray-800 border-0 py-2 px-6 focus:outline-none font-bold rounded text-lg">
-              Get CV
             </a>
           </div>
         </div>
