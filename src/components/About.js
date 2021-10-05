@@ -11,7 +11,7 @@ export default function About() {
             MYSELF
           </h1>
           <p className="mb-8 leading-relaxed text-lg text-white">
-            I am a software engineer who completed the CMJD at IJSE. I also completed the certificate course in Ethical Hacking at CICRA Campus. I'm willing to complete the CEH with them too. I've completed my Software Engineering internship and have one year of work experience with Tutopiya company.
+            I am a software engineer who completed the CMJD - BSc (Hons) in Computer Science at IJSE. I also completed the certificate course in Ethical Hacking at CICRA Campus. I'm willing to complete the CEH with them too. I've completed my Software Engineering internship and have one year of work experience with Tutopiya company.
             <br/>
             <br/>
             I love building things. While hard engineering problems are often intrinsically fun to tackle, I'm most attracted to solving real customer problems with a business justification. I have completed my higher education at Prince of Wales College & currently living in Piliyandala, Western Province, Sri Lanka. postal code - 10304. Looking forward to giving you many more IT solutions.
