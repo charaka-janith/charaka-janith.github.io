@@ -1,0 +1,14 @@
+/* Slideshow */
+
+.slideshow {
+  margin: 0 auto;
+}
+.slideshowSlider {
+  margin: 0 auto;
+  transition: ease 1000ms;
+  white-space: nowrap;
+}
+.slide {
+  width: 100%;
+  display: inline-block;
+}

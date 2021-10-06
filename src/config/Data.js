@@ -51,5 +51,16 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "faJava"
+  "faJava",
+  "faPython",
+  "faJsSquare",
+  "faHtml5",
+  "faCss3Alt",
+  "faPhp",
+  "faNode",
+  "faReact",
+  "faAngular",
+  "faWordpress",
+  "faGitAlt",
+  "faAws",
 ];
