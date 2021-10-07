@@ -1,5 +1,7 @@
-import man_dance from '../assets/gifs/man_dance.gif'
-import Typical from 'react-typical'
+import man_dance from '../assets/gifs/man_dance.gif';
+import Typical from 'react-typical';
+import {Link} from 'react-scroll';
+import '../config/Neon_button.css';
 
 export default function Banner() {
   return (
@@ -26,16 +28,22 @@ export default function Banner() {
               ]}
             />
           </h1>
-          <p className="mb-8 leading-relaxed text-red-400 text-lg">
-            QUALITY IS MORE THAN A PROMISE
+          <p className="mb-8 leading-relaxed text-text_dark text-lg font-bold">
+            Quality is more than a promise
             <br/>
-            IT'S GENUINE PERFORMANCE
+            It's genuine performance
           </p>
           <div className="flex justify-center">
-            <a href="#contact"
-              className="sticky z-10 inline-flex text-white hover:text-gray-700 hover:bg-white border-0 py-2 px-6 focus:outline-none rounded text-lg font-bold">
+            <Link
+            className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-text_dark
+            neon_btn hover:text-bg_dark py-2 px-6 focus:outline-none rounded text-lg font-bold duration-0.2"
+             to="contact" smooth={true} duration={1000}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
               Contact Me
-            </a>
+             </Link>
           </div>
         </div>
       </div>

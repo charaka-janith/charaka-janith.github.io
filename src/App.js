@@ -10,7 +10,7 @@ import ParticleBackground from './components/Particle_background';
 
 function App() {
   return (
-    <main className="bg-gray-800">
+    <main className="bg-bg_dark">
       <Cursor/>
       <Navbar/>
       <Banner/>
@@ -18,7 +18,7 @@ function App() {
       <Skills/>
       <Sugar
         time={1000}
-        color={'rgba(31, 41, 55, 1)'}
+        color={'#003040'}
         background="white"
       />
       <ParticleBackground/>
