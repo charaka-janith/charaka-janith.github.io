@@ -1,12 +1,13 @@
 import './App.css';
 import { Sugar } from 'react-preloaders';
+import ParticleBackground from './config/Particle_background';
+import Cursor from './config/Cursor';
 // components
 import About from './components/About';
 import Banner from './components/Banner';
-import Cursor from './config/Cursor';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
-import ParticleBackground from './components/Particle_background';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Banner/>
       <About/>
       <Skills/>
+      <Projects/>
       <Sugar
         time={1000}
         color={'#003040'}

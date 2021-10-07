@@ -13,6 +13,7 @@ export default function Navbar() {
           <Link className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-hover_dark rounded text-base mt-4 md:mt-0 duration-1000" to="about" smooth={true} duration={1000}>About</Link>
           <Link className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-hover_dark rounded text-base mt-4 md:mt-0 duration-1000" to="skills" smooth={true} duration={1000}>Skills</Link>
           <Link className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-hover_dark rounded text-base mt-4 md:mt-0 duration-1000" to="experience" smooth={true} duration={1000}>Experience</Link>
+          <Link className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-hover_dark rounded text-base mt-4 md:mt-0 duration-1000" to="projects" smooth={true} duration={1000}>Projects</Link>
         </nav>
         <Link className="text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-hover_dark rounded text-base mt-4 md:mt-0 duration-1000" to="skills" smooth={true} duration={1000}>Contact Me</Link>
       </div>

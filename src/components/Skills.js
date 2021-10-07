@@ -1,14 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { skills } from '../config/Data';
 import '../config/Slideshow.css';
 import '../config/Neon_button.css';
 import React from 'react';
 import experience from '../assets/gifs/experience.gif';
-// delete later
 import cv from '../assets/cv.pdf';
-import Typical from 'react-typical';
-import {animateScroll as scroll} from 'react-scroll';
-import {Link} from 'react-scroll';
 
 export default function Skills() {
   const [index, setIndex] = React.useState(0);
@@ -38,8 +33,12 @@ export default function Skills() {
           <div className="slideshow w-full overflow-hidden">
             <div className="slideshowSlider w-32" style={{ transform: `translate3d(${-index * 120}%, 0, 0)` }}>
               {skills.map((skill, index) => (
-                <div className="slide bg-transparent border border-hover_dark rounded text-center text-white m-4 p-4">
-                  <FontAwesomeIcon icon={skill} size="6x" transform="shrink-6"/>
+                <div className="slide bg-transparent border border-hover_dark rounded text-center text-white m-4 p-4" key={index}>
+                  <img
+                    className="object-cover object-center w-24 h-24"
+                    alt="skill"
+                    src={skill}
+                  />
                 </div>
               ))}
             </div>
@@ -56,14 +55,14 @@ export default function Skills() {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-text_dark">
+            <h1 className="title-font text-5xl mb-4 font-medium text-text_dark">
               1.5+
             </h1>
-            <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">
+            <h1 className="title-font text-5xl mb-4 font-medium text-white">
               Years experienced Software Engineer
             </h1>
             <p className="mb-8 leading-relaxed text-text_dark text-lg font-bold">
-              Information is not knowledge. The only source of knowledge is experience. You need experience to gain wisdom.
+              Information is not knowledge. The only source of knowledge is experience. You need experience to gain wisdom
             </p>
             <div className="flex justify-center">
               <a href={cv}

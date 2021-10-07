@@ -15,7 +15,7 @@ export default function Banner() {
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">
+          <h1 className="title-font text-5xl mb-4 font-medium text-white">
             Hey, I'm CHARAKA.
             <br className="sm:inline-block" />
             Wanna know me ? well I love&nbsp;
@@ -29,9 +29,7 @@ export default function Banner() {
             />
           </h1>
           <p className="mb-8 leading-relaxed text-text_dark text-lg font-bold">
-            Quality is more than a promise
-            <br/>
-            It's genuine performance
+          Control can sometimes be an illusion. But sometimes you need illusions to gain control. Fantasy is an easy way to give meaning to the world
           </p>
           <div className="flex justify-center">
             <Link

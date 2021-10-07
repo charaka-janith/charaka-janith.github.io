@@ -1,38 +1,35 @@
-import * as Brand_icons from '@fortawesome/free-brands-svg-icons';
+// logos
+import java from '../assets/images/logos/java.png';
+import python from '../assets/images/logos/python.png';
+import c from '../assets/images/logos/c.png';
+import c_sharp from '../assets/images/logos/c_sharp.png';
+import c_plus from '../assets/images/logos/c_plus.png';
+import js from '../assets/images/logos/js.png';
+import html from '../assets/images/logos/html.png';
+import css from '../assets/images/logos/css.png';
+import php from '../assets/images/logos/php.png';
+import node from '../assets/images/logos/node.png';
+import react from '../assets/images/logos/react.png';
+import angular from '../assets/images/logos/angular.png';
+import mysql from '../assets/images/logos/mysql.png';
+import firebase from '../assets/images/logos/firebase.png';
+import wordpress from '../assets/images/logos/wordpress.png';
+import git from '../assets/images/logos/git.png';
+import aws from '../assets/images/logos/aws.png';
+import arduino from '../assets/images/logos/arduino.png';
+import cypress from '../assets/images/logos/cypress.png';
+// projects
+import experience from '../assets/gifs/experience.gif';
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "sample title",
+    subtitle: "sample sub",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+      "sample desc",
+    image: experience,
+    link: "https://dark-sl.github.io/dark-sl",
+  }
 ];
 
 export const testimonials = [
@@ -53,16 +50,23 @@ export const testimonials = [
 ];
 
 export const skills = [
-  Brand_icons.faJava,
-  Brand_icons.faPython,
-  Brand_icons.faJsSquare,
-  Brand_icons.faHtml5,
-  Brand_icons.faCss3Alt,
-  Brand_icons.faPhp,
-  Brand_icons.faNode,
-  Brand_icons.faReact,
-  Brand_icons.faAngular,
-  Brand_icons.faWordpress,
-  Brand_icons.faGitAlt,
-  Brand_icons.faAws,
+  java,
+  python,
+  c,
+  c_sharp,
+  c_plus,
+  js,
+  html,
+  css,
+  php,
+  node,
+  react,
+  angular,
+  mysql,
+  firebase,
+  wordpress,
+  git,
+  aws,
+  arduino,
+  cypress
 ];
