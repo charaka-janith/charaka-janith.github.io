@@ -1,3 +1,5 @@
+import * as Brand_icons from '@fortawesome/free-brands-svg-icons';
+
 export const projects = [
   {
     title: "React Reserve",
@@ -51,16 +53,16 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "faJava",
-  "faPython",
-  "faJsSquare",
-  "faHtml5",
-  "faCss3Alt",
-  "faPhp",
-  "faNode",
-  "faReact",
-  "faAngular",
-  "faWordpress",
-  "faGitAlt",
-  "faAws",
+  Brand_icons.faJava,
+  Brand_icons.faPython,
+  Brand_icons.faJsSquare,
+  Brand_icons.faHtml5,
+  Brand_icons.faCss3Alt,
+  Brand_icons.faPhp,
+  Brand_icons.faNode,
+  Brand_icons.faReact,
+  Brand_icons.faAngular,
+  Brand_icons.faWordpress,
+  Brand_icons.faGitAlt,
+  Brand_icons.faAws,
 ];
