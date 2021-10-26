@@ -1,4 +1,4 @@
-import { projects } from '../config/Data';
+import { projects } from '../../config/Data';
 
 export default function Projects() {
   return (

@@ -23,7 +23,7 @@ import experience from '../assets/gifs/experience.gif';
 
 export const projects = [
   {
-    title: "sample title",
+    title: "Pera-Agros",
     subtitle: "sample sub",
     description:
       "sample desc",
@@ -34,18 +34,14 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    quote: "I had the pleasure of working with him on an exciting project for over 18 months.We have shared some highs, lows and some real head scratching moments. He has been a real asset to the team and to me personally.",
+    image: "https://randomuser.me/api/portraits/men/94.jpg",
+    name: "Jesse Hicks"
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+    quote: "He has been a real asset to the team and able to pick up new technologies quickly. He has a passion for all flavours of development and is a team player with an excellent attitude both in and outside of work.",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    name: "Ruben Alvarez"
   },
 ];
 

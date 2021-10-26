@@ -1,4 +1,4 @@
-import hakumen_long from '../assets/gifs/hakumen_long.gif'
+import hakumen_long from '../../assets/gifs/hakumen_long.gif'
 
 export default function About() {
   return (
