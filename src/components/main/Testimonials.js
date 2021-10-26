@@ -19,7 +19,7 @@ export default function Testimonials() {
             {testimonials.map((testimonial) => (
               <div className="p-4 w-full mx-auto">
                 <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                  <p className="leading-relaxed mb-6 font-bold">{testimonial.quote}</p>
+                  <p className="leading-relaxed mb-6 font-bold">"{testimonial.quote}"</p>
                   <div className="inline-flex items-center">
                     <img
                       alt="testimonial"

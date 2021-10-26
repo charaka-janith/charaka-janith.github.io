@@ -42,7 +42,7 @@ export default function Routes () {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={Home} exact={true}/>
+        <Route path="/dark-sl" component={Home} exact={true}/>
         <Route path="/test" component={test}/>
         <Route component={PageNotFound}/>
       </Switch>
