@@ -17,6 +17,7 @@ imageHandler = e => {
 };
   submitForm = e => {
     console.log('form submit clicked ..');
+    console.log(this.state);
   };
   render() {
     const {profileImg} = this.state;
@@ -64,8 +65,8 @@ imageHandler = e => {
                       First name
                     </label>
                     <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="grid-first-name" type="text" placeholder="First Name"></input>
+    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+    id="grid-first-name" type="text" placeholder="First Name" onChange={e => this.setState({firstName : e.target.value})}/>
                     <p className="text-white text-xs italic">Please fill out this field.</p>
                   </div>
                   <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -74,8 +75,8 @@ imageHandler = e => {
                       Last name
                     </label>
                     <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="grid-last-name" type="text" placeholder="Last Name"></input>
+    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+    id="grid-last-name" type="text" placeholder="Last Name" onChange={e => this.setState({lastName : e.target.value})}/>
                     <p className="text-white text-xs italic">Please fill out this field.</p>
                   </div>
                 </div>
@@ -86,8 +87,8 @@ imageHandler = e => {
                       Testimonial
                     </label>
                     <input
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="grid-quote" type="text" placeholder="Testimonial"></input>
+    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+    id="grid-quote" type="text" placeholder="Testimonial" onChange={e => this.setState({quote : e.target.value})}/>
                     <p className="text-white text-xs italic">Make it as long and as crazy as you'd like</p>
                   </div>
                 </div>
