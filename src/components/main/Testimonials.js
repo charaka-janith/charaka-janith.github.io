@@ -16,7 +16,6 @@ imageHandler = e => {
   reader.readAsDataURL(e.target.files[0]);
 };
   submitForm = e => {
-    console.log('form submit clicked ..');
     console.log(this.state);
   };
   render() {
