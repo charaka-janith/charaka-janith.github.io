@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dark-sl/static/css/main.58b7005c.chunk.css",
-    "main.js": "/dark-sl/static/js/main.d481f443.chunk.js",
-    "main.js.map": "/dark-sl/static/js/main.d481f443.chunk.js.map",
-    "runtime-main.js": "/dark-sl/static/js/runtime-main.5dc17b02.js",
-    "runtime-main.js.map": "/dark-sl/static/js/runtime-main.5dc17b02.js.map",
-    "static/js/2.231c7fe7.chunk.js": "/dark-sl/static/js/2.231c7fe7.chunk.js",
-    "static/js/2.231c7fe7.chunk.js.map": "/dark-sl/static/js/2.231c7fe7.chunk.js.map",
-    "static/js/3.d18e520b.chunk.js": "/dark-sl/static/js/3.d18e520b.chunk.js",
-    "static/js/3.d18e520b.chunk.js.map": "/dark-sl/static/js/3.d18e520b.chunk.js.map",
+    "main.css": "/dark-sl/static/css/main.4d6a95b3.chunk.css",
+    "main.js": "/dark-sl/static/js/main.12282d32.chunk.js",
+    "main.js.map": "/dark-sl/static/js/main.12282d32.chunk.js.map",
+    "runtime-main.js": "/dark-sl/static/js/runtime-main.b9533b22.js",
+    "runtime-main.js.map": "/dark-sl/static/js/runtime-main.b9533b22.js.map",
+    "static/js/2.b8cd5503.chunk.js": "/dark-sl/static/js/2.b8cd5503.chunk.js",
+    "static/js/2.b8cd5503.chunk.js.map": "/dark-sl/static/js/2.b8cd5503.chunk.js.map",
+    "static/js/3.076e37de.chunk.js": "/dark-sl/static/js/3.076e37de.chunk.js",
+    "static/js/3.076e37de.chunk.js.map": "/dark-sl/static/js/3.076e37de.chunk.js.map",
     "index.html": "/dark-sl/index.html",
-    "static/css/main.58b7005c.chunk.css.map": "/dark-sl/static/css/main.58b7005c.chunk.css.map",
-    "static/js/2.231c7fe7.chunk.js.LICENSE.txt": "/dark-sl/static/js/2.231c7fe7.chunk.js.LICENSE.txt",
+    "static/css/main.4d6a95b3.chunk.css.map": "/dark-sl/static/css/main.4d6a95b3.chunk.css.map",
+    "static/js/2.b8cd5503.chunk.js.LICENSE.txt": "/dark-sl/static/js/2.b8cd5503.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dark-sl/static/media/1942.1f8a446f.ttf",
     "static/media/angular.8ca2ddac.png": "/dark-sl/static/media/angular.8ca2ddac.png",
     "static/media/arduino.f8866676.png": "/dark-sl/static/media/arduino.f8866676.png",
@@ -37,9 +37,9 @@
     "static/media/wordpress.7c0fe49e.png": "/dark-sl/static/media/wordpress.7c0fe49e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5dc17b02.js",
-    "static/js/2.231c7fe7.chunk.js",
-    "static/css/main.58b7005c.chunk.css",
-    "static/js/main.d481f443.chunk.js"
+    "static/js/runtime-main.b9533b22.js",
+    "static/js/2.b8cd5503.chunk.js",
+    "static/css/main.4d6a95b3.chunk.css",
+    "static/js/main.12282d32.chunk.js"
   ]
 }
