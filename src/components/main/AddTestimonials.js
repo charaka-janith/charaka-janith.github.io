@@ -1,60 +1,40 @@
 import React, { Component } from "react";
-import { testimonials } from '../../config/Data';
-import Testimonial from 'react-testimonial';
 import '../../config/Image_Uploader.css';
-export class Testimonials extends Component {
-state = {
-  profileImg: "dark-sl/profile_img.gif"
-};
-imageHandler = e => {
-  const reader = new FileReader();
-  reader.onload = () => {
-    if (reader.readyState === 2) {
-      this.setState({ profileImg: reader.result });
-    }
+// firebase
+import db from '../../Firebase';
+import { collection, addDoc } from "firebase/firestore";
+
+export class AddTestimonials extends Component {
+  state = {
+    profileImg: "dark-sl/profile_img.gif",
+    firstName: '',
+    lastName: '',
+    quote: '',
+    testimonials: []
   };
-  reader.readAsDataURL(e.target.files[0]);
-};
-  submitForm = e => {
-    console.log(this.state);
+  imageHandler = e => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (reader.readyState === 2) {
+        this.setState({ profileImg: reader.result });
+      }
+    };
+    reader.readAsDataURL(e.target.files[0]);
+  };
+  submitForm = async e => {
+    // Add a new document with a generated id.
+    await addDoc(collection(db, "testimonials"), {
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      quote: this.state.quote,
+      profileImg: this.state.profileImg
+    });
   };
   render() {
     const {profileImg} = this.state;
     return (
         <section id="testimonials" className="text-gray-400">
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-            <div className="flex flex-col w-full mb-20">
-              <h1 className="text-5xl font-medium title-font mb-4 text-white">
-                Testimonials
-              </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-lg font-bold text-text_dark">
-                A bug is never just a mistake. It represents something bigger. An error of thinking. That makes you who
-                you are
-              </p>
-            </div>
-            <div className="flex flex-wrap -m-4">
-              <Testimonial>
-                {testimonials.map((testimonial) => (
-                    <div className="p-4 w-full mx-auto" key={testimonial.firstName}>
-                      <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                        <p className="leading-relaxed mb-6 font-bold">"{testimonial.quote}"</p>
-                        <div className="inline-flex items-center">
-                          <img
-                              alt="testimonial"
-                              src={testimonial.image}
-                              className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                          />
-                          <span className="flex-grow flex flex-col pl-4">
-                      <span className="title-font font-medium font-bold text-text_dark">
-                        {testimonial.firstName} {testimonial.lastName}
-                      </span>
-                    </span>
-                        </div>
-                      </div>
-                    </div>
-                ))}
-              </Testimonial>
-            </div>
             <div className="sticky z-10 mx-auto mt-5 bg-gray-800 bg-opacity-40 p-10 pb-5">
               <form className="w-full">
                 <div className="flex flex-wrap -mx-3">
@@ -129,4 +109,4 @@ imageHandler = e => {
     );
   }
 }
-export default Testimonials;
+export default AddTestimonials;

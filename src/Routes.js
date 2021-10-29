@@ -8,7 +8,8 @@ import Banner from './components/main/Banner';
 import Navbar from './components/main/Navbar';
 import Skills from './components/main/Skills';
 import Projects from './components/main/Projects';
-import Testimonials from './components/main/Testimonials';
+import ViewTestimonials from './components/main/ViewTestimonials';
+import AddTestimonials from './components/main/AddTestimonials';
 // consts
 const PageNotFound = () => {
   return (
@@ -27,7 +28,8 @@ const PageNotFound = () => {
       <About/>
       <Skills/>
       <Projects/>
-      <Testimonials/>
+      <ViewTestimonials/>
+      <AddTestimonials/>
       <Sugar
         time={1000}
         color={'#003040'}
