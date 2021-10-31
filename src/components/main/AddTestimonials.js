@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import '../../config/Image_Uploader.css';
+import swal from 'sweetalert';
 // firebase
 import db from '../../Firebase';
 import { collection, addDoc } from "firebase/firestore";
 
 export class AddTestimonials extends Component {
   state = {
-    profileImg: "dark-sl/profile_img.gif",
+    profileImg: "/dark-sl/profile_img.gif",
     firstName: '',
     lastName: '',
     quote: '',
@@ -21,7 +22,8 @@ export class AddTestimonials extends Component {
     };
     reader.readAsDataURL(e.target.files[0]);
   };
-  submitForm = async e => {
+  submitForm = async () => {
+    swal("Thank You!", "Should I give you a kiss! ❤️", "success");
     // Add a new document with a generated id.
     await addDoc(collection(db, "testimonials"), {
       firstName: this.state.firstName,
@@ -94,7 +96,7 @@ export class AddTestimonials extends Component {
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full px-3 flex justify-center">
                     <button
-                        className="text-lg bg-hover_dark hover:bg-text_dark hover:text-bg_dark text-white py-1 px-2 rounded font-bold duration-0.2 neon_btn sticky z-10"
+                        className="text-lg bg-hover_dark hover:bg-text_dark hover:text-bg_dark text-white py-1 px-2 rounded font-bold duration-0.2 neon_btn w-full sticky z-10"
                         type="button"
                         onClick={this.submitForm}
                     >
