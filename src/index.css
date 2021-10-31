@@ -28,7 +28,7 @@
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #dc5656;
+    background: #1dd1a1;
 }
 /* end scroll-bar */
 body {

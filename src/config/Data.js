@@ -19,7 +19,7 @@ import aws from '../assets/images/logos/aws.png';
 import arduino from '../assets/images/logos/arduino.png';
 import cypress from '../assets/images/logos/cypress.png';
 // projects
-import experience from '../assets/gifs/experience.gif';
+import peraAgros from '../assets/images/projects/pera-agros.png';
 
 export const projects = [
   {
@@ -27,8 +27,8 @@ export const projects = [
     subtitle: "sample sub",
     description:
       "sample desc",
-    image: experience,
-    link: "https://dark-sl.github.io/dark-sl",
+    image: peraAgros,
+    link: "https://peraagros91-92farms.org/",
   }
 ];
 

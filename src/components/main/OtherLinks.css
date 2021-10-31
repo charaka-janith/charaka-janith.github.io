@@ -1,0 +1,74 @@
+.myImg {
+    width: 100px;
+    border-radius: 100%;
+}
+.myImg:hover {
+    animation: animate 5s linear infinite;
+}
+.mybtn {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #003040;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #1dd1a1;
+    color: #1dd1a1;
+    overflow: hidden;
+    position: relative;
+}
+.mybtn:hover {
+    box-shadow: 0 5px 15px -5px #1dd1a1;
+}
+.mybtn svg {
+    line-height: 70px;
+    font-size: 50px;
+    transition: 0.2s linear;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.mybtn:hover svg {
+    transform: scale(1.3);
+    color: #023e52;
+}
+.mybtn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #1dd1a1;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.mybtn:hover::before {
+    animation: footerBtnAnimation 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes footerBtnAnimation {
+    0% {
+        left: -140%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

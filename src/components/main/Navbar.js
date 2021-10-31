@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 hover:bg-opacity-40 rounded text-base mt-4 md:mt-0 duration-1000" to="projects" smooth={true} duration={1000}>Projects</Link>
           <Link className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 hover:bg-opacity-40 rounded text-base mt-4 md:mt-0 duration-1000" to="testimonials" smooth={true} duration={1000}>Testimonials</Link>
         </nav>
-        <Link className="text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 hover:bg-opacity-40 rounded text-base mt-4 md:mt-0 duration-1000" to="skills" smooth={true} duration={1000}>Contact Me</Link>
+        <Link className="text-white inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 hover:bg-opacity-40 rounded text-base mt-4 md:mt-0 duration-1000" to="contact" smooth={true} duration={1000}>Contact Me</Link>
       </div>
     </header>
   );

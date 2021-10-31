@@ -12,7 +12,7 @@ export default function ViewTestimonials() {
             console.log('testimonials .. ', testimonials);
         }
         fetchData().then(r => {});
-    }, []);
+    });
     return (
         <section id="testimonials" className="text-gray-400">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
