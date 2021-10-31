@@ -1,6 +1,8 @@
 {
   "homepage": "https://dark-sl.github.io/dark-sl",
   "name": "dark-sl",
+  "description": "Charaka Janith Portfolio",
+  "author": "Charaka Janith",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -56,5 +58,13 @@
     "gh-pages": "^3.2.3",
     "postcss": "^7.0.38",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
-  }
+  },
+  "keywords": [
+    "charaka",
+    "janith",
+    "bandarawaththa",
+    "dark",
+    "sl",
+    "dark-sl"
+  ]
 }

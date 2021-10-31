@@ -23,28 +23,13 @@ import peraAgros from '../assets/images/projects/pera-agros.png';
 
 export const projects = [
   {
-    title: "Pera-Agros",
-    subtitle: "sample sub",
+    title: "Pera Agros 91/92 FaRMS",
+    subtitle: "Wordpress web-application",
     description:
-      "sample desc",
+      "Scholarship platform application for past pupils association in Peradeniya campus Agriculture faculty",
     image: peraAgros,
     link: "https://peraagros91-92farms.org/",
   }
-];
-
-export const testimonials = [
-  {
-    quote: "I had the pleasure of working with him on an exciting project for over 18 months.We have shared some highs, lows and some real head scratching moments. He has been a real asset to the team and to me personally.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    firstName: "Jesse",
-    lastName: "Hicks"
-  },
-  {
-    quote: "He has been a real asset to the team and able to pick up new technologies quickly. He has a passion for all flavours of development and is a team player with an excellent attitude both in and outside of work.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    firstName: "Ruben",
-    lastName: "Alvarez"
-  },
 ];
 
 export const skills = [
