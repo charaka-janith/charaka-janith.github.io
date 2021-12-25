@@ -1,3 +1,4 @@
+import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {Sugar} from 'react-preloaders';
 import ParticleBackground from './config/Particle_background';
@@ -7,25 +8,36 @@ import About from './components/main/About';
 import AddTestimonials from './components/main/AddTestimonials';
 import Banner from './components/main/Banner';
 import ContactMe from './components/main/ContactMe'
-import Navbar from './components/main/Navbar';
+import MainNavbar from './components/main/MainNavbar';
 import OtherLinks from "./components/main/OtherLinks";
 import Projects from './components/main/Projects';
 import Skills from './components/main/Skills';
 import ViewTestimonials from './components/main/ViewTestimonials';
+import NIC from "./components/nic/NIC";
+import NICNavbar from "./components/nic/NICNavbar";
 
 const PageNotFound = () => {
     return (
         <h1>404</h1>
     );
-}, test = () => {
+}, nicApp = () => {
     return (
-        <h1>test</h1>
+        <main>
+            <NICNavbar/>
+            <NIC/>
+        </main>
+    );
+}, coc = () => {
+    return (
+        <main>
+            <NIC/>
+        </main>
     );
 }, Home = () => {
     return (
-        <main className="bg-bg_dark">
+        <main className="bg-bg_dark mainPage">
             <Cursor/>
-            <Navbar/>
+            <MainNavbar/>
             <Banner/>
             <About/>
             <Skills/>
@@ -37,7 +49,7 @@ const PageNotFound = () => {
             <Sugar
                 time={1000}
                 color={'#003040'}
-                background="white"
+                background="#fff"
             />
             <ParticleBackground/>
         </main>
@@ -49,7 +61,8 @@ export default function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/dark-sl" component={Home} exact={true}/>
-                <Route path="/test" component={test}/>
+                <Route path="/nic-converter" component={nicApp} exact={true}/>
+                <Route path="/age-of-lions" component={coc} exact={true}/>
                 <Route component={PageNotFound}/>
             </Switch>
         </BrowserRouter>

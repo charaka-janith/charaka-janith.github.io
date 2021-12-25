@@ -1,3 +1,4 @@
+import React from 'react';
 import { projects } from '../../config/Data';
 
 export default function Projects() {
@@ -16,7 +17,7 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
-              target="_blank"
+              target="_self"
               rel="noreferrer"
               key={project.image}
               className="sm:w-1/2 w-100 p-4">

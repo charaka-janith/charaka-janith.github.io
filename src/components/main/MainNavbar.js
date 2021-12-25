@@ -1,6 +1,7 @@
+import React from 'react';
 import {animateScroll as scroll} from 'react-scroll';
 import {Link} from 'react-scroll';
-export default function Navbar() {
+export default function MainNavbar() {
   return (
     <header className="bg-bg_dark bg-opacity-90 sticky top-0 z-20">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">

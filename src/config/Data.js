@@ -20,6 +20,7 @@ import arduino from '../assets/images/logos/arduino.png';
 import cypress from '../assets/images/logos/cypress.png';
 // projects
 import peraAgros from '../assets/images/projects/pera-agros.png';
+import nicPic from '../assets/images/projects/nic-converter.png';
 
 export const projects = [
   {
@@ -29,6 +30,14 @@ export const projects = [
       "Scholarship platform application for past pupils association in Peradeniya campus Agriculture faculty",
     image: peraAgros,
     link: "https://peraagros91-92farms.org/",
+  },
+  {
+    title: "Nic data finder",
+    subtitle: "React web-application",
+    description:
+        "Find hidden data from any national identity card number (Sri Lanka)",
+    image: nicPic,
+    link: "/nic-converter/",
   }
 ];
 
