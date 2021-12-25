@@ -61,7 +61,7 @@ export default function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/dark-sl" component={Home} exact={true}/>
-                <Route path="/nic-converter" component={nicApp} exact={true}/>
+                <Route path="/dark-sl/nic-converter" component={nicApp} exact={true}/>
                 <Route path="/age-of-lions" component={coc} exact={true}/>
                 <Route component={PageNotFound}/>
             </Switch>
