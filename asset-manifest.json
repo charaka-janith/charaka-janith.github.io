@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dark-sl/static/css/main.75ba54b2.chunk.css",
-    "main.js": "/dark-sl/static/js/main.fa4958c8.chunk.js",
-    "main.js.map": "/dark-sl/static/js/main.fa4958c8.chunk.js.map",
+    "main.css": "/dark-sl/static/css/main.ee8124f7.chunk.css",
+    "main.js": "/dark-sl/static/js/main.763c13d0.chunk.js",
+    "main.js.map": "/dark-sl/static/js/main.763c13d0.chunk.js.map",
     "runtime-main.js": "/dark-sl/static/js/runtime-main.5931a495.js",
     "runtime-main.js.map": "/dark-sl/static/js/runtime-main.5931a495.js.map",
-    "static/js/2.63b116bc.chunk.js": "/dark-sl/static/js/2.63b116bc.chunk.js",
-    "static/js/2.63b116bc.chunk.js.map": "/dark-sl/static/js/2.63b116bc.chunk.js.map",
+    "static/js/2.d83a63ca.chunk.js": "/dark-sl/static/js/2.d83a63ca.chunk.js",
+    "static/js/2.d83a63ca.chunk.js.map": "/dark-sl/static/js/2.d83a63ca.chunk.js.map",
     "static/js/3.f9e8e012.chunk.js": "/dark-sl/static/js/3.f9e8e012.chunk.js",
     "static/js/3.f9e8e012.chunk.js.map": "/dark-sl/static/js/3.f9e8e012.chunk.js.map",
     "index.html": "/dark-sl/index.html",
-    "static/css/main.75ba54b2.chunk.css.map": "/dark-sl/static/css/main.75ba54b2.chunk.css.map",
-    "static/js/2.63b116bc.chunk.js.LICENSE.txt": "/dark-sl/static/js/2.63b116bc.chunk.js.LICENSE.txt",
+    "static/css/main.ee8124f7.chunk.css.map": "/dark-sl/static/css/main.ee8124f7.chunk.css.map",
+    "static/js/2.d83a63ca.chunk.js.LICENSE.txt": "/dark-sl/static/js/2.d83a63ca.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dark-sl/static/media/1942.1f8a446f.ttf",
     "static/media/angular.8ca2ddac.png": "/dark-sl/static/media/angular.8ca2ddac.png",
     "static/media/arduino.f8866676.png": "/dark-sl/static/media/arduino.f8866676.png",
@@ -24,6 +24,7 @@
     "static/media/cypress.dbc396a4.png": "/dark-sl/static/media/cypress.dbc396a4.png",
     "static/media/experience.29e8d6cc.gif": "/dark-sl/static/media/experience.29e8d6cc.gif",
     "static/media/firebase.1bedf986.png": "/dark-sl/static/media/firebase.1bedf986.png",
+    "static/media/flag_of_Sri_Lanka.fb160022.gif": "/dark-sl/static/media/flag_of_Sri_Lanka.fb160022.gif",
     "static/media/hakumen_long.059e99ad.gif": "/dark-sl/static/media/hakumen_long.059e99ad.gif",
     "static/media/html.4e455441.png": "/dark-sl/static/media/html.4e455441.png",
     "static/media/java.c2037121.png": "/dark-sl/static/media/java.c2037121.png",
@@ -31,6 +32,7 @@
     "static/media/man_dance.e8390f07.gif": "/dark-sl/static/media/man_dance.e8390f07.gif",
     "static/media/myImg.87b0ef24.jpg": "/dark-sl/static/media/myImg.87b0ef24.jpg",
     "static/media/mysql.540fb1c2.png": "/dark-sl/static/media/mysql.540fb1c2.png",
+    "static/media/nic-converter.32eadd57.png": "/dark-sl/static/media/nic-converter.32eadd57.png",
     "static/media/node.6da237ef.png": "/dark-sl/static/media/node.6da237ef.png",
     "static/media/pera-agros.f4d4410c.png": "/dark-sl/static/media/pera-agros.f4d4410c.png",
     "static/media/php.436da957.png": "/dark-sl/static/media/php.436da957.png",
@@ -40,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5931a495.js",
-    "static/js/2.63b116bc.chunk.js",
-    "static/css/main.75ba54b2.chunk.css",
-    "static/js/main.fa4958c8.chunk.js"
+    "static/js/2.d83a63ca.chunk.js",
+    "static/css/main.ee8124f7.chunk.css",
+    "static/js/main.763c13d0.chunk.js"
   ]
 }
