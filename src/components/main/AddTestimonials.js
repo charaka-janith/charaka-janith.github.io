@@ -7,7 +7,7 @@ import { collection, addDoc } from "firebase/firestore";
 
 export class AddTestimonials extends Component {
   state = {
-    profileImg: "/dark-sl/profile_img.gif",
+    profileImg: "/profile_img.gif",
     firstName: '',
     lastName: '',
     quote: '',
