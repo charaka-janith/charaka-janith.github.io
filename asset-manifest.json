@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1eed4e2f.chunk.css",
-    "main.js": "/static/js/main.f0474fff.chunk.js",
-    "main.js.map": "/static/js/main.f0474fff.chunk.js.map",
+    "main.js": "/static/js/main.a1ad207e.chunk.js",
+    "main.js.map": "/static/js/main.a1ad207e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.263c8188.js",
     "runtime-main.js.map": "/static/js/runtime-main.263c8188.js.map",
     "static/js/2.0862a3fa.chunk.js": "/static/js/2.0862a3fa.chunk.js",
@@ -32,7 +32,7 @@
     "static/media/man_dance.e8390f07.gif": "/static/media/man_dance.e8390f07.gif",
     "static/media/myImg.87b0ef24.jpg": "/static/media/myImg.87b0ef24.jpg",
     "static/media/mysql.540fb1c2.png": "/static/media/mysql.540fb1c2.png",
-    "static/media/nic-converter.32eadd57.png": "/static/media/nic-converter.32eadd57.png",
+    "static/media/nic-converter.394fb366.png": "/static/media/nic-converter.394fb366.png",
     "static/media/node.6da237ef.png": "/static/media/node.6da237ef.png",
     "static/media/pera-agros.f4d4410c.png": "/static/media/pera-agros.f4d4410c.png",
     "static/media/php.436da957.png": "/static/media/php.436da957.png",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.263c8188.js",
     "static/js/2.0862a3fa.chunk.js",
     "static/css/main.1eed4e2f.chunk.css",
-    "static/js/main.f0474fff.chunk.js"
+    "static/js/main.a1ad207e.chunk.js"
   ]
 }
