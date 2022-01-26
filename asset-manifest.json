@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1e92706.chunk.css",
-    "main.js": "/static/js/main.810673d8.chunk.js",
-    "main.js.map": "/static/js/main.810673d8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5acd2e1b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5acd2e1b.js.map",
-    "static/js/2.749f85e8.chunk.js": "/static/js/2.749f85e8.chunk.js",
-    "static/js/2.749f85e8.chunk.js.map": "/static/js/2.749f85e8.chunk.js.map",
-    "static/js/3.35d972d5.chunk.js": "/static/js/3.35d972d5.chunk.js",
-    "static/js/3.35d972d5.chunk.js.map": "/static/js/3.35d972d5.chunk.js.map",
+    "main.css": "/static/css/main.4c7d763a.chunk.css",
+    "main.js": "/static/js/main.436e895e.chunk.js",
+    "main.js.map": "/static/js/main.436e895e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.263c8188.js",
+    "runtime-main.js.map": "/static/js/runtime-main.263c8188.js.map",
+    "static/js/2.d18d2c26.chunk.js": "/static/js/2.d18d2c26.chunk.js",
+    "static/js/2.d18d2c26.chunk.js.map": "/static/js/2.d18d2c26.chunk.js.map",
+    "static/js/3.f90f5c5c.chunk.js": "/static/js/3.f90f5c5c.chunk.js",
+    "static/js/3.f90f5c5c.chunk.js.map": "/static/js/3.f90f5c5c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d1e92706.chunk.css.map": "/static/css/main.d1e92706.chunk.css.map",
-    "static/js/2.749f85e8.chunk.js.LICENSE.txt": "/static/js/2.749f85e8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/1942.1f8a446f.ttf",
+    "static/css/main.4c7d763a.chunk.css.map": "/static/css/main.4c7d763a.chunk.css.map",
+    "static/js/2.d18d2c26.chunk.js.LICENSE.txt": "/static/js/2.d18d2c26.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Dongle-Regular.be19c2ab.ttf",
     "static/media/angular.8ca2ddac.png": "/static/media/angular.8ca2ddac.png",
     "static/media/arduino.f8866676.png": "/static/media/arduino.f8866676.png",
     "static/media/aws.295c7394.png": "/static/media/aws.295c7394.png",
@@ -41,9 +41,9 @@
     "static/media/wordpress.7c0fe49e.png": "/static/media/wordpress.7c0fe49e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5acd2e1b.js",
-    "static/js/2.749f85e8.chunk.js",
-    "static/css/main.d1e92706.chunk.css",
-    "static/js/main.810673d8.chunk.js"
+    "static/js/runtime-main.263c8188.js",
+    "static/js/2.d18d2c26.chunk.js",
+    "static/css/main.4c7d763a.chunk.css",
+    "static/js/main.436e895e.chunk.js"
   ]
 }
