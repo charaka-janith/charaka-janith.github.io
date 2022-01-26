@@ -1,6 +1,4 @@
 import React from 'react';
-import {animateScroll as scroll} from 'react-scroll';
-import {Link} from 'react-scroll';
 
 export default function NICNavbar() {
   return (
@@ -8,7 +6,7 @@ export default function NICNavbar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="title-font font-medium text-gray-800 mb-4 md:mb-0">
           <a
-            href={"/dark-sl"}
+            href={"/"}
             target="_self"
           >
             <div className="ml-3 text-xl">

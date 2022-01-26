@@ -1,8 +1,6 @@
-import Testimonial from 'react-testimonial';
 // firebase
 import db from '../../Firebase';
 import React from "react";
-import {skills} from "../../config/Data";
 
 export default function ViewTestimonials() {
   const [testimonials, setTestimonials] = React.useState([]);

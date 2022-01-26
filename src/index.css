@@ -3,7 +3,14 @@
   font-family: '1942';
   src: local('1942'),url('assets/fonts/1942.ttf') format('truetype');
 }
-.mainPage {
+@font-face {
+    font-family: 'BonheurRoyale';
+    src: local('BonheurRoyale'),url('assets/fonts/Dongle/Dongle-Regular.ttf') format('truetype');
+}
+.nicApp {
+    font-family: 'Dongle-Regular' !important;
+}
+:root {
   font-family: '1942' !important;
   overflow-x: hidden;
 }

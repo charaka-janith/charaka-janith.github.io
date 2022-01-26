@@ -22,7 +22,7 @@ const PageNotFound = () => {
     );
 }, nicApp = () => {
     return (
-        <main>
+        <main className="nicApp">
             <NICNavbar/>
             <NIC/>
         </main>
@@ -35,7 +35,7 @@ const PageNotFound = () => {
     );
 }, Home = () => {
     return (
-        <main className="bg-bg_dark mainPage">
+        <main className="bg-bg_dark">
             <Cursor/>
             <MainNavbar/>
             <Banner/>
