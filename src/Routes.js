@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, HashRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import {Sugar} from 'react-preloaders';
 import ParticleBackground from './config/Particle_background';
 import Cursor from './config/Cursor';
@@ -58,7 +58,7 @@ const PageNotFound = () => {
 // export
 export default function Routes() {
     return (
-        <HashRouter>
+        <HashRouter basename='/'>
             <Switch>
                 <Route path="/" component={Home} exact={true}/>
                 <Route path="/nic-converter" component={nicApp} exact={false}/>

@@ -37,7 +37,7 @@ export const projects = [
     description:
         "Find hidden data from any national identity card number (Sri Lanka)",
     image: nicPic,
-    link: "/dark-sl/nic-converter/",
+    link: "/nic-converter",
   }
 ];
 

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dark-sl.github.io/dark-sl",
+  "homepage": "https://charaka-janith.github.io",
   "name": "charaka",
   "description": "Charaka Janith Portfolio",
   "author": "Charaka Janith",
@@ -63,9 +63,6 @@
   "keywords": [
     "charaka",
     "janith",
-    "bandarawaththa",
-    "dark",
-    "sl",
-    "dark-sl"
+    "bandarawaththa"
   ]
 }
