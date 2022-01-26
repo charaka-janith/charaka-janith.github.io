@@ -9,6 +9,7 @@
 }
 .nicApp {
     font-family: 'Dongle-Regular' !important;
+    cursor: auto;
 }
 :root {
   font-family: '1942' !important;
