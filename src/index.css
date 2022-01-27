@@ -7,7 +7,7 @@
     font-family: 'BonheurRoyale';
     src: local('BonheurRoyale'),url('assets/fonts/Dongle/Dongle-Regular.ttf') format('truetype');
 }
-.nicApp {
+.nicApp, .page404 {
     font-family: 'Dongle-Regular' !important;
     cursor: auto;
 }

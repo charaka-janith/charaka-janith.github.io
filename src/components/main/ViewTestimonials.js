@@ -20,7 +20,7 @@ export default function ViewTestimonials() {
         setIndex((prevIndex) =>
           prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
         ),
-      5000
+      20000
     );
     return () => {
     };
