@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1eed4e2f.chunk.css",
-    "main.js": "/static/js/main.aae2f4f2.chunk.js",
-    "main.js.map": "/static/js/main.aae2f4f2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.263c8188.js",
-    "runtime-main.js.map": "/static/js/runtime-main.263c8188.js.map",
-    "static/js/2.0862a3fa.chunk.js": "/static/js/2.0862a3fa.chunk.js",
-    "static/js/2.0862a3fa.chunk.js.map": "/static/js/2.0862a3fa.chunk.js.map",
-    "static/js/3.f90f5c5c.chunk.js": "/static/js/3.f90f5c5c.chunk.js",
-    "static/js/3.f90f5c5c.chunk.js.map": "/static/js/3.f90f5c5c.chunk.js.map",
+    "main.css": "/static/css/main.2f37bf65.chunk.css",
+    "main.js": "/static/js/main.e231041b.chunk.js",
+    "main.js.map": "/static/js/main.e231041b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1f7a2e24.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1f7a2e24.js.map",
+    "static/js/2.5d4de0e5.chunk.js": "/static/js/2.5d4de0e5.chunk.js",
+    "static/js/2.5d4de0e5.chunk.js.map": "/static/js/2.5d4de0e5.chunk.js.map",
+    "static/js/3.5a773f95.chunk.js": "/static/js/3.5a773f95.chunk.js",
+    "static/js/3.5a773f95.chunk.js.map": "/static/js/3.5a773f95.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1eed4e2f.chunk.css.map": "/static/css/main.1eed4e2f.chunk.css.map",
-    "static/js/2.0862a3fa.chunk.js.LICENSE.txt": "/static/js/2.0862a3fa.chunk.js.LICENSE.txt",
+    "static/css/main.2f37bf65.chunk.css.map": "/static/css/main.2f37bf65.chunk.css.map",
+    "static/js/2.5d4de0e5.chunk.js.LICENSE.txt": "/static/js/2.5d4de0e5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Dongle-Regular.be19c2ab.ttf",
     "static/media/angular.8ca2ddac.png": "/static/media/angular.8ca2ddac.png",
     "static/media/arduino.f8866676.png": "/static/media/arduino.f8866676.png",
@@ -34,6 +34,7 @@
     "static/media/mysql.540fb1c2.png": "/static/media/mysql.540fb1c2.png",
     "static/media/nic-converter.394fb366.png": "/static/media/nic-converter.394fb366.png",
     "static/media/node.6da237ef.png": "/static/media/node.6da237ef.png",
+    "static/media/notFound.5a6a644d.gif": "/static/media/notFound.5a6a644d.gif",
     "static/media/pera-agros.f4d4410c.png": "/static/media/pera-agros.f4d4410c.png",
     "static/media/php.436da957.png": "/static/media/php.436da957.png",
     "static/media/python.552c9d9a.png": "/static/media/python.552c9d9a.png",
@@ -41,9 +42,9 @@
     "static/media/wordpress.7c0fe49e.png": "/static/media/wordpress.7c0fe49e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.263c8188.js",
-    "static/js/2.0862a3fa.chunk.js",
-    "static/css/main.1eed4e2f.chunk.css",
-    "static/js/main.aae2f4f2.chunk.js"
+    "static/js/runtime-main.1f7a2e24.js",
+    "static/js/2.5d4de0e5.chunk.js",
+    "static/css/main.2f37bf65.chunk.css",
+    "static/js/main.e231041b.chunk.js"
   ]
 }
