@@ -2,7 +2,7 @@ import { skills } from '../../config/Data';
 import '../../config/Slideshow.css';
 import '../../config/Neon_button.css';
 import React from 'react';
-import experience from '../../assets/gifs/experience.gif';
+import experience from '../../assets/gifs/main/experience.gif';
 import cv from '../../assets/cv.pdf';
 
 export default function Skills() {

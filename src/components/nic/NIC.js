@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import '../../config/Image_Uploader.css';
-import flag from "../../assets/gifs/flag_of_Sri_Lanka.gif";
+import flag from "../../assets/gifs/nic/flag_of_Sri_Lanka.gif";
 
 export class NIC extends Component {
   constructor(props) {

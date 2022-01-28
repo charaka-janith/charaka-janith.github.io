@@ -1,4 +1,4 @@
-import man_dance from '../../assets/gifs/man_dance.gif';
+import man_dance from '../../assets/gifs/main/man_dance.gif';
 import Typical from 'react-typical';
 import {Link} from 'react-scroll';
 import '../../config/Neon_button.css';
