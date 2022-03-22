@@ -19,11 +19,21 @@ import NIC from "./components/nic/NIC";
 import NICNavbar from "./components/nic/NICNavbar";
 /* 404 */
 import PageNotFoundPage from "./components/404/PageNotFoundPage"
+/* caller id finder */
+import CallerId from "./components/caller_ID/CallerId"
+import CallerNavbar from "./components/caller_ID/CallerNavbar";
 
-const PageNotFound = () => {
+const pageNotFound = () => {
     return (
       <main className="page404">
         <PageNotFoundPage/>
+      </main>
+    );
+},callerId = () => {
+    return (
+      <main className="page404">
+        <CallerNavbar/>
+        <CallerId/>
       </main>
     );
 }, nicApp = () => {
@@ -39,7 +49,7 @@ const PageNotFound = () => {
             <NIC/>
         </main>
     );
-}, Home = () => {
+}, home = () => {
     return (
         <main className="bg-bg_dark">
             <Cursor/>
@@ -66,10 +76,11 @@ export default function Routes() {
     return (
         <HashRouter basename='/'>
             <Switch>
-                <Route path="/" component={Home} exact={true}/>
+                <Route path="/" component={home} exact={true}/>
                 <Route path="/nic-converter" component={nicApp} exact={false}/>
                 <Route path="/age-of-lions" component={coc} exact={true}/>
-                <Route component={PageNotFound}/>
+                <Route path="/caller-id" component={callerId} exact={true}/>
+                <Route component={pageNotFound}/>
             </Switch>
         </HashRouter>
     );
