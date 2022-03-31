@@ -1,15 +1,15 @@
 ### Hi there, I'm Charaka [you wanna explore me?][website] 👋🚀 
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/DanuDeshan?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FDanuDeshan&screen_name=DanuDeshan)
+[![Twitter Follow](https://img.shields.io/twitter/follow/CHARAKAJANITH1?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fcharakajanith1&screen_name=charakajanith1)
 
-##Problem Solver
+##Hacker
 
 ### Connect with me:
 
-[<img align="left" alt="DanujaV | FaceBook" width="22px" src="https://img.icons8.com/ios-filled/452/facebook-new.png" />][facebook]
-[<img align="left" alt="DanujaV | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="DanujaV | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="Charaka | FaceBook" width="22px" src="https://img.icons8.com/ios-filled/452/facebook-new.png" />][facebook]
+[<img align="left" alt="Charaka | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="Charaka | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="Charaka | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
