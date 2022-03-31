@@ -39,8 +39,8 @@
 ---
 
 
-[website]: https://www.linkedin.com/in/danujav/
-[twitter]: https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FDanuDeshan&screen_name=DanuDeshan
-[facebook]: https://www.facebook.com/danujagreru
-[instagram]: https://www.instagram.com/danu_v_deshan/
-[linkedin]: https://www.linkedin.com/in/danujav/
+[website]: https://charaka-janith.github.io/
+[twitter]: https://twitter.com/CHARAKAJANITH1
+[facebook]: https://www.facebook.com/b.v.charaka.janith/
+[instagram]: https://www.instagram.com/b.v.charaka_janith/
+[linkedin]: https://www.linkedin.com/in/charaka-janith-933803179/
