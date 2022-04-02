@@ -1,5 +1,5 @@
 // firebase
-import db from '../../Firebase';
+import {db} from '../../Firebase';
 import React from "react";
 
 export default function ViewTestimonials() {
@@ -12,8 +12,7 @@ export default function ViewTestimonials() {
           setTestimonials(data.docs.map(doc => doc.data()));
         })
       }
-      fetchData().then(r => {
-      })
+      fetchData().then(r => {})
     }
     setTimeout(
       () =>
@@ -24,6 +23,7 @@ export default function ViewTestimonials() {
     );
     return () => {
     };
+    // eslint-disable-next-line
   }, [index]);
   return (
     <section id="testimonials" className="text-gray-400">

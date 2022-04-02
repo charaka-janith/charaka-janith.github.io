@@ -10,7 +10,7 @@ export default function NICNavbar() {
             target="_self"
           >
             <div className="ml-3 text-xl">
-              DARK SL
+              CHARAKA JANITH
             </div>
           </a>
         </div>

@@ -34,7 +34,7 @@ export default function Banner() {
           <div className="flex justify-center">
             <Link
             className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-text_dark
-            neon_btn hover:text-bg_dark py-2 px-6 focus:outline-none rounded text-lg font-bold duration-0.2"
+            neon_btn hover:text-bg_dark py-2 px-6 focus:outline-none rounded text-lg font-bold duration-0.2 cursor-pointer"
              to="contact" smooth={true} duration={1000}>
               <span/>
               <span/>

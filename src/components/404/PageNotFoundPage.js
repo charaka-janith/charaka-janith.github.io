@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import notFound from "../../assets/gifs/pageNotFoundPage/notFound.gif";
 
 export default function PageNotFoundPage() {

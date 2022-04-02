@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import notFound from "../../assets/gifs/pageNotFoundPage/notFound.gif";
+import React from 'react';
 import flag from "../../assets/gifs/nic/flag_of_Sri_Lanka.gif";
 
 export default function CallerId() {

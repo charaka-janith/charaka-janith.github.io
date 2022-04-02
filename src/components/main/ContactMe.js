@@ -1,7 +1,7 @@
 import React from "react";
 import swal from "sweetalert";
 import {addDoc, collection} from "firebase/firestore";
-import db from "../../Firebase";
+import {db} from "../../Firebase";
 
 export default function ContactMe() {
   const [name, setName] = React.useState("");
@@ -39,8 +39,15 @@ export default function ContactMe() {
                 ADDRESS
               </h2>
               <p className="mt-1 text-text_dark font-bold">
-                62/D, Sangarama, <br />
-                Siddamulla, Piliyandala.
+                No. 62/D,<br />
+                School lane,<br />
+                Sangarama,
+                Siddamulla,
+                Piliyandala,<br />
+                Colombo district,<br />
+                Western province,<br />
+                Sri Lanka.<br />
+                10304
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -53,7 +60,7 @@ export default function ContactMe() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed text-text_dark font-bold">+94 710-33-77-99</p>
+              <p className="leading-relaxed text-text_dark font-bold">+94 7-118-18-119</p>
             </div>
           </div>
         </div>
