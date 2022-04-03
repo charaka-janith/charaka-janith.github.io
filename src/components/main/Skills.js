@@ -4,7 +4,7 @@ import '../../config/Neon_button.css';
 import React from 'react';
 import experience from '../../assets/gifs/main/experience.gif';
 import cv from '../../assets/cv.pdf';
-
+import {AnimationOnScroll} from 'react-animation-on-scroll';
 export default function Skills() {
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
@@ -21,6 +21,7 @@ export default function Skills() {
     <section>
       <section id="skills">
         <div className="container px-5 py-10 mx-auto">
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <div className="text-center mb-10">
             <h1 className="text-5xl font-medium title-font text-white mb-4">
               Technologies &amp; Experience
@@ -30,7 +31,9 @@ export default function Skills() {
                It's really clear that the most precious resource we all have is time
             </p>
           </div>
+          </AnimationOnScroll>
           <div className="slideshow w-full overflow-hidden">
+            <AnimationOnScroll animateIn="animate__fadeInRightBig">
             <div className="slideshowSlider w-32" style={{ transform: `translate3d(${-index * 120}%, 0, 0)` }}>
               {skills.map((skill, index) => (
                 <div className="slide bg-transparent border border-hover_dark rounded text-center text-white m-4 p-4" key={index}>
@@ -42,19 +45,23 @@ export default function Skills() {
                 </div>
               ))}
             </div>
+            </AnimationOnScroll>
           </div>
         </div>
       </section>
       <section id="experience">
         <div className="container mx-auto flex px-10 pb-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <AnimationOnScroll animateIn="animate__fadeInLeftBig">
             <img
               className="object-cover object-center rounded"
               alt="man dance"
               src={experience}
             />
+            </AnimationOnScroll>
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <AnimationOnScroll animateIn="animate__fadeInRightBig">
             <h1 className="title-font text-5xl mb-4 font-medium text-text_dark">
               1.5+
             </h1>
@@ -64,6 +71,7 @@ export default function Skills() {
             <p className="mb-8 leading-relaxed text-text_dark text-lg font-bold">
               Information is not knowledge. The only source of knowledge is experience. You need experience to gain wisdom
             </p>
+            </AnimationOnScroll>
             <div className="flex justify-center">
               <a href={cv}
               className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-text_dark

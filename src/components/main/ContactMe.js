@@ -2,12 +2,11 @@ import React from "react";
 import swal from "sweetalert";
 import {addDoc, collection} from "firebase/firestore";
 import {db} from "../../Firebase";
-
+import {AnimationOnScroll} from 'react-animation-on-scroll';
 export default function ContactMe() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
-
   const handleSubmit = async function() {
     swal("Thank You!", "Message sent successfully!️", "success");
     // Add a new document with a generated id.
@@ -17,11 +16,11 @@ export default function ContactMe() {
       message
     });
   }
-
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-bg_dark rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative sticky z-10">
+        <AnimationOnScroll className="lg:w-2/3 md:w-1/2 bg-bg_dark rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative sticky z-10" animateIn="animate__fadeInLeftBig">
+        <div >
           <iframe
             width="100%"
             height="100%"
@@ -64,13 +63,16 @@ export default function ContactMe() {
             </div>
           </div>
         </div>
+        </AnimationOnScroll>
         <form className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <AnimationOnScroll animateIn="animate__fadeInRightBig">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5 text-text_dark font-bold">
             When you hire me, you hire a nut who is going to work 24 hours a day for you and never, ever burn his respect
           </p>
+          </AnimationOnScroll>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm uppercase text-white font-bold">
               Name

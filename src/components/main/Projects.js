@@ -1,17 +1,19 @@
 import React from 'react';
 import { projects } from '../../config/Data';
-
+import {AnimationOnScroll} from 'react-animation-on-scroll';
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <h1 className="text-5xl font-medium title-font mb-4 text-white">
             Web Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-lg font-bold text-text_dark">
             Quality is more than a promise. It's genuine performance
           </p>
+          </AnimationOnScroll>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (

@@ -4,7 +4,6 @@ import swal from 'sweetalert';
 // firebase
 import {storage, db} from '../../Firebase';
 import {addDoc, collection} from "firebase/firestore";
-
 export class AddTestimonials extends Component {
   state = {
     profileImg: "/profile_img.gif",
@@ -56,7 +55,6 @@ export class AddTestimonials extends Component {
           })
       })
   };
-
   render() {
     const {profileImg} = this.state;
     return (

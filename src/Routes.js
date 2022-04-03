@@ -3,6 +3,7 @@ import {HashRouter, Route, Switch} from 'react-router-dom';
 import {Sugar} from 'react-preloaders';
 import ParticleBackground from './config/Particle_background';
 import Cursor from './config/Cursor';
+import "animate.css/animate.min.css";
 // components
 /* main */
 import About from './components/main/About';

@@ -1,7 +1,7 @@
 // firebase
 import {db} from '../../Firebase';
 import React from "react";
-
+import {AnimationOnScroll} from 'react-animation-on-scroll';
 export default function ViewTestimonials() {
   const [testimonials, setTestimonials] = React.useState([]);
   const [index, setIndex] = React.useState(0);
@@ -29,6 +29,7 @@ export default function ViewTestimonials() {
     <section id="testimonials" className="text-gray-400">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <h1 className="text-5xl font-medium title-font mb-4 text-white">
             Testimonials
           </h1>
@@ -36,7 +37,9 @@ export default function ViewTestimonials() {
             A bug is never just a mistake. It represents something bigger. An error of thinking. That makes you who
             you are
           </p>
+          </AnimationOnScroll>
         </div>
+        <AnimationOnScroll animateIn="animate__fadeInRightBig">
         <div className="flex flex-wrap">
           {
             0 < testimonials.length ? (
@@ -62,6 +65,7 @@ export default function ViewTestimonials() {
             ) : null
           }
         </div>
+        </AnimationOnScroll>
       </div>
     </section>
   );
