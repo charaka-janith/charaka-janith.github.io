@@ -23,6 +23,8 @@ import PageNotFoundPage from "./components/404/PageNotFoundPage"
 /* caller id finder */
 import CallerId from "./components/caller_ID/CallerId"
 import CallerNavbar from "./components/caller_ID/CallerNavbar";
+/* tic tac toe */
+import Game from './components/tic_tac_toe/Game/Game'
 
 const pageNotFound = () => {
     return (
@@ -48,6 +50,12 @@ const pageNotFound = () => {
     return (
         <main>
             <NIC/>
+        </main>
+    );
+}, ticTacToe = () => {
+    return (
+        <main className="ticTacToe">
+            <Game/>
         </main>
     );
 }, home = () => {
@@ -81,6 +89,7 @@ export default function Routes() {
                 <Route path="/nic-converter" component={nicApp} exact={false}/>
                 <Route path="/age-of-lions" component={coc} exact={true}/>
                 <Route path="/caller-id" component={callerId} exact={true}/>
+                <Route path="/tic-tac-toe" component={ticTacToe} exact={true}/>
                 <Route component={pageNotFound}/>
             </Switch>
         </HashRouter>

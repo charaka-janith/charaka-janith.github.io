@@ -21,6 +21,7 @@ import cypress from '../assets/images/logos/cypress.png';
 // projects
 import peraAgros from '../assets/images/projects/pera-agros.png';
 import nicPic from '../assets/images/projects/nic-converter.png';
+import ticTacToe from '../assets/images/projects/ticTacToe.png';
 
 export const projects = [
   {
@@ -38,6 +39,14 @@ export const projects = [
         "Find hidden data from any national identity card number (Sri Lanka)",
     image: nicPic,
     link: "/#/nic-converter",
+  },
+  {
+    title: "Tic Tac Toe",
+    subtitle: "React web-game",
+    description:
+        "Can you beat this bot? Then you are a real pro",
+    image: ticTacToe,
+    link: "/#/tic-tac-toe",
   }
 ];
 
