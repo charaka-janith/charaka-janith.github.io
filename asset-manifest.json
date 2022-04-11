@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.55748824.chunk.css",
-    "main.js": "/static/js/main.bf132547.chunk.js",
-    "main.js.map": "/static/js/main.bf132547.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b7905b20.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b7905b20.js.map",
+    "main.css": "/static/css/main.20b1250c.chunk.css",
+    "main.js": "/static/js/main.6a9fd9b7.chunk.js",
+    "main.js.map": "/static/js/main.6a9fd9b7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6581325d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6581325d.js.map",
     "static/css/2.080a4aca.chunk.css": "/static/css/2.080a4aca.chunk.css",
-    "static/js/2.590da35a.chunk.js": "/static/js/2.590da35a.chunk.js",
-    "static/js/2.590da35a.chunk.js.map": "/static/js/2.590da35a.chunk.js.map",
-    "static/js/3.1dd7e0e9.chunk.js": "/static/js/3.1dd7e0e9.chunk.js",
-    "static/js/3.1dd7e0e9.chunk.js.map": "/static/js/3.1dd7e0e9.chunk.js.map",
+    "static/js/2.8102380d.chunk.js": "/static/js/2.8102380d.chunk.js",
+    "static/js/2.8102380d.chunk.js.map": "/static/js/2.8102380d.chunk.js.map",
+    "static/js/3.92972c89.chunk.js": "/static/js/3.92972c89.chunk.js",
+    "static/js/3.92972c89.chunk.js.map": "/static/js/3.92972c89.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.080a4aca.chunk.css.map": "/static/css/2.080a4aca.chunk.css.map",
-    "static/css/main.55748824.chunk.css.map": "/static/css/main.55748824.chunk.css.map",
-    "static/js/2.590da35a.chunk.js.LICENSE.txt": "/static/js/2.590da35a.chunk.js.LICENSE.txt",
+    "static/css/main.20b1250c.chunk.css.map": "/static/css/main.20b1250c.chunk.css.map",
+    "static/js/2.8102380d.chunk.js.LICENSE.txt": "/static/js/2.8102380d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Dongle-Regular.be19c2ab.ttf",
     "static/media/angular.8ca2ddac.png": "/static/media/angular.8ca2ddac.png",
     "static/media/arduino.f8866676.png": "/static/media/arduino.f8866676.png",
@@ -41,13 +41,14 @@
     "static/media/php.436da957.png": "/static/media/php.436da957.png",
     "static/media/python.552c9d9a.png": "/static/media/python.552c9d9a.png",
     "static/media/react.ea76c5b8.png": "/static/media/react.ea76c5b8.png",
+    "static/media/ticTacToe.2d97d6bb.png": "/static/media/ticTacToe.2d97d6bb.png",
     "static/media/wordpress.7c0fe49e.png": "/static/media/wordpress.7c0fe49e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7905b20.js",
+    "static/js/runtime-main.6581325d.js",
     "static/css/2.080a4aca.chunk.css",
-    "static/js/2.590da35a.chunk.js",
-    "static/css/main.55748824.chunk.css",
-    "static/js/main.bf132547.chunk.js"
+    "static/js/2.8102380d.chunk.js",
+    "static/css/main.20b1250c.chunk.css",
+    "static/js/main.6a9fd9b7.chunk.js"
   ]
 }
