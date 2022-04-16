@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3f8c9b4d.chunk.css",
-    "main.js": "/static/js/main.0d143163.chunk.js",
-    "main.js.map": "/static/js/main.0d143163.chunk.js.map",
+    "main.js": "/static/js/main.9947982e.chunk.js",
+    "main.js.map": "/static/js/main.9947982e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6581325d.js",
     "runtime-main.js.map": "/static/js/runtime-main.6581325d.js.map",
     "static/css/2.080a4aca.chunk.css": "/static/css/2.080a4aca.chunk.css",
@@ -40,7 +40,7 @@
     "static/media/php.436da957.png": "/static/media/php.436da957.png",
     "static/media/python.552c9d9a.png": "/static/media/python.552c9d9a.png",
     "static/media/react.ea76c5b8.png": "/static/media/react.ea76c5b8.png",
-    "static/media/terminal.ae09ae8b.gif": "/static/media/terminal.ae09ae8b.gif",
+    "static/media/terminal.6d21d958.gif": "/static/media/terminal.6d21d958.gif",
     "static/media/ticTacToe.2d97d6bb.png": "/static/media/ticTacToe.2d97d6bb.png",
     "static/media/wordpress.7c0fe49e.png": "/static/media/wordpress.7c0fe49e.png"
   },
@@ -49,6 +49,6 @@
     "static/css/2.080a4aca.chunk.css",
     "static/js/2.7fc91536.chunk.js",
     "static/css/main.3f8c9b4d.chunk.css",
-    "static/js/main.0d143163.chunk.js"
+    "static/js/main.9947982e.chunk.js"
   ]
 }
