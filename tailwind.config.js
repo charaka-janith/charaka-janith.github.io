@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg_dark: '#003040',
-        hover_dark: '#023e52',
-        text_dark: '#1dd1a1'
+        bg_dark: 'black',
+        hover_dark: '#0f0',
+        text_dark: '#0a0'
       }
     }
   },
