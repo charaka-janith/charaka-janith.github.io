@@ -1,4 +1,4 @@
-import man_dance from '../../assets/gifs/main/man_dance.gif';
+import terminal from '../../assets/gifs/main/terminal.gif';
 import Typical from 'react-typical';
 import {Link} from 'react-scroll';
 import '../../config/Neon_button.css';
@@ -11,9 +11,9 @@ export default function Banner() {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
             <img
-              className="object-cover object-center rounded"
-              alt="man dance"
-              src={man_dance}
+                className="object-cover object-center rounded"
+                alt="man dance"
+                src={terminal}
             />
             </AnimationOnScroll>
           </div>
