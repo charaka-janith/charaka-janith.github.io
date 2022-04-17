@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f8c9b4d.chunk.css",
-    "main.js": "/static/js/main.9947982e.chunk.js",
-    "main.js.map": "/static/js/main.9947982e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6581325d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6581325d.js.map",
+    "main.css": "/static/css/main.3984fed1.chunk.css",
+    "main.js": "/static/js/main.ef604abf.chunk.js",
+    "main.js.map": "/static/js/main.ef604abf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba00e68e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba00e68e.js.map",
     "static/css/2.080a4aca.chunk.css": "/static/css/2.080a4aca.chunk.css",
-    "static/js/2.7fc91536.chunk.js": "/static/js/2.7fc91536.chunk.js",
-    "static/js/2.7fc91536.chunk.js.map": "/static/js/2.7fc91536.chunk.js.map",
-    "static/js/3.92972c89.chunk.js": "/static/js/3.92972c89.chunk.js",
-    "static/js/3.92972c89.chunk.js.map": "/static/js/3.92972c89.chunk.js.map",
+    "static/js/2.37656edf.chunk.js": "/static/js/2.37656edf.chunk.js",
+    "static/js/2.37656edf.chunk.js.map": "/static/js/2.37656edf.chunk.js.map",
+    "static/js/3.32123cd2.chunk.js": "/static/js/3.32123cd2.chunk.js",
+    "static/js/3.32123cd2.chunk.js.map": "/static/js/3.32123cd2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.080a4aca.chunk.css.map": "/static/css/2.080a4aca.chunk.css.map",
-    "static/css/main.3f8c9b4d.chunk.css.map": "/static/css/main.3f8c9b4d.chunk.css.map",
-    "static/js/2.7fc91536.chunk.js.LICENSE.txt": "/static/js/2.7fc91536.chunk.js.LICENSE.txt",
+    "static/css/main.3984fed1.chunk.css.map": "/static/css/main.3984fed1.chunk.css.map",
+    "static/js/2.37656edf.chunk.js.LICENSE.txt": "/static/js/2.37656edf.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Dongle-Regular.be19c2ab.ttf",
     "static/media/angular.8ca2ddac.png": "/static/media/angular.8ca2ddac.png",
     "static/media/arduino.f8866676.png": "/static/media/arduino.f8866676.png",
@@ -24,7 +24,7 @@
     "static/media/css.2828f1db.png": "/static/media/css.2828f1db.png",
     "static/media/cv.1dd3b069.pdf": "/static/media/cv.1dd3b069.pdf",
     "static/media/cypress.dbc396a4.png": "/static/media/cypress.dbc396a4.png",
-    "static/media/experience.29e8d6cc.gif": "/static/media/experience.29e8d6cc.gif",
+    "static/media/experience.6c1216f6.gif": "/static/media/experience.6c1216f6.gif",
     "static/media/firebase.1bedf986.png": "/static/media/firebase.1bedf986.png",
     "static/media/flag_of_Sri_Lanka.fb160022.gif": "/static/media/flag_of_Sri_Lanka.fb160022.gif",
     "static/media/hakumen_long.059e99ad.gif": "/static/media/hakumen_long.059e99ad.gif",
@@ -33,6 +33,7 @@
     "static/media/js.aebb295b.png": "/static/media/js.aebb295b.png",
     "static/media/myImg.cb99d389.jpg": "/static/media/myImg.cb99d389.jpg",
     "static/media/mysql.540fb1c2.png": "/static/media/mysql.540fb1c2.png",
+    "static/media/nav_logo.e3534839.gif": "/static/media/nav_logo.e3534839.gif",
     "static/media/nic-converter.394fb366.png": "/static/media/nic-converter.394fb366.png",
     "static/media/node.6da237ef.png": "/static/media/node.6da237ef.png",
     "static/media/notFound.5a6a644d.gif": "/static/media/notFound.5a6a644d.gif",
@@ -45,10 +46,10 @@
     "static/media/wordpress.7c0fe49e.png": "/static/media/wordpress.7c0fe49e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6581325d.js",
+    "static/js/runtime-main.ba00e68e.js",
     "static/css/2.080a4aca.chunk.css",
-    "static/js/2.7fc91536.chunk.js",
-    "static/css/main.3f8c9b4d.chunk.css",
-    "static/js/main.9947982e.chunk.js"
+    "static/js/2.37656edf.chunk.js",
+    "static/css/main.3984fed1.chunk.css",
+    "static/js/main.ef604abf.chunk.js"
   ]
 }
