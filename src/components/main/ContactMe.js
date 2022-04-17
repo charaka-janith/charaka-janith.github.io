@@ -3,6 +3,7 @@ import swal from "sweetalert";
 import {addDoc, collection} from "firebase/firestore";
 import {db} from "../../Firebase";
 import {AnimationOnScroll} from 'react-animation-on-scroll';
+
 export default function ContactMe() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
@@ -114,7 +115,7 @@ export default function ContactMe() {
             />
           </div>
           <button
-              className="text-lg bg-hover_dark hover:bg-text_dark hover:text-bg_dark text-white py-2 px-6 rounded font-bold duration-0.2 neon_btn sticky z-10"
+              className="text-lg bg-text_dark hover:bg-hover_dark hover:text-bg_dark text-white py-2 px-6 rounded font-bold duration-0.2 neon_btn sticky z-10"
               type="button"
               onClick={handleSubmit}
           >

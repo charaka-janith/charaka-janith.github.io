@@ -8,7 +8,7 @@ export default function Banner() {
   return (
     <section id="Banner">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 mt-20 w-5/6">
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
               <img
                   className="object-cover object-center rounded"
@@ -18,7 +18,7 @@ export default function Banner() {
             </AnimationOnScroll>
           </div>
           <div
-              className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-5">
+              className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 mt-20 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <AnimationOnScroll animateIn="animate__fadeInRightBig">
               <h1 className="title-font text-5xl mb-4 font-medium text-white">
                 Hey, I'm CHARAKA.
@@ -39,9 +39,9 @@ export default function Banner() {
             </AnimationOnScroll>
             <div className="flex justify-center">
               <Link
-              className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-text_dark
+                  className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-hover_dark
               neon_btn hover:text-bg_dark py-2 px-6 focus:outline-none rounded text-lg font-bold duration-0.2 cursor-pointer"
-               to="contact" smooth={true} duration={1000}>
+                  to="contact" smooth={true} duration={1000}>
                 <span/>
                 <span/>
                 <span/>

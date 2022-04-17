@@ -2,8 +2,9 @@ import React, {Component} from "react";
 import '../../config/Image_Uploader.css';
 import swal from 'sweetalert';
 // firebase
-import {storage, db} from '../../Firebase';
+import {db, storage} from '../../Firebase';
 import {addDoc, collection} from "firebase/firestore";
+
 export class AddTestimonials extends Component {
   state = {
     profileImg: "/profile_img.gif",
@@ -60,7 +61,7 @@ export class AddTestimonials extends Component {
     return (
       <section className="text-gray-400">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-          <div className="mx-auto mt-5 bg-gray-800 bg-opacity-40 p-10 pb-5">
+          <div className="mx-auto mt-5 bg-gray-900 bg-opacity-40 p-10 pb-5">
             <form className="w-full">
               <div className="flex flex-wrap -mx-3">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -69,8 +70,8 @@ export class AddTestimonials extends Component {
                     First name
                   </label>
                   <input
-                    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 sticky z-10"
-                    id="grid-first-name" type="text" placeholder="First Name"
+                      className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 sticky z-10"
+                      id="grid-first-name" type="text" placeholder="First Name"
                     onChange={e => this.setState({firstName: e.target.value})}/>
                   <p className="text-white text-xs italic">Please fill out this field.</p>
                 </div>
@@ -114,8 +115,8 @@ export class AddTestimonials extends Component {
                   />
                   <div className="label">
                     <label
-                      className="image-upload font-bold duration-0.2 bg-hover_dark hover:bg-text_dark hover:text-bg_dark text-white neon_btn sticky z-10 cursor-pointer"
-                      htmlFor="input">
+                        className="image-upload font-bold duration-0.2 bg-text_dark hover:bg-hover_dark hover:text-bg_dark text-white neon_btn sticky z-10 cursor-pointer"
+                        htmlFor="input">
                       Choose your Photo
                     </label>
                   </div>
@@ -124,9 +125,9 @@ export class AddTestimonials extends Component {
               <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3 flex justify-center">
                   <button
-                    className="text-lg bg-hover_dark hover:bg-text_dark hover:text-bg_dark text-white py-1 px-2 rounded font-bold duration-0.2 neon_btn w-full sticky z-10"
-                    type="button"
-                    onClick={this.submitForm}
+                      className="text-lg bg-text_dark hover:bg-hover_dark hover:text-bg_dark text-white py-1 px-2 rounded font-bold duration-0.2 neon_btn w-full sticky z-10"
+                      type="button"
+                      onClick={this.submitForm}
                   >
                     Send Testimonial
                   </button>

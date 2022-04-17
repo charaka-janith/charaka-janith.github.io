@@ -1,10 +1,11 @@
-import { skills } from '../../config/Data';
+import {skills} from '../../config/Data';
 import '../../config/Slideshow.css';
 import '../../config/Neon_button.css';
 import React from 'react';
 import experience from '../../assets/gifs/main/experience.gif';
 import cv from '../../assets/cv.pdf';
 import {AnimationOnScroll} from 'react-animation-on-scroll';
+
 export default function Skills() {
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
@@ -74,7 +75,7 @@ export default function Skills() {
             </AnimationOnScroll>
             <div className="flex justify-center">
               <a href={cv}
-              className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-text_dark
+                 className="sticky z-10 inline-flex text-white overflow-hidden hover:bg-hover_dark
               neon_btn hover:text-bg_dark py-2 px-6 focus:outline-none rounded text-lg font-bold duration-0.2">
                 <span></span>
                 <span></span>

@@ -9,16 +9,16 @@
     display: inline-block;
     width: 70px;
     height: 70px;
-    background: #003040;
+    background: #0a0;
     margin: 10px;
     border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #1dd1a1;
-    color: #1dd1a1;
+    box-shadow: 0 5px 15px -5px #0f0;
+    color: black;
     overflow: hidden;
     position: relative;
 }
 .mybtn:hover {
-    box-shadow: 0 5px 15px -5px #1dd1a1;
+    box-shadow: 0 5px 15px -5px white;
 }
 .mybtn svg {
     line-height: 70px;
@@ -33,14 +33,14 @@
 }
 .mybtn:hover svg {
     transform: scale(1.3);
-    color: #023e52;
+    color: #0f0;
 }
 .mybtn::before {
     content: "";
     position: absolute;
     width: 120%;
     height: 120%;
-    background: #1dd1a1;
+    background: black;
     transform: rotate(45deg);
     left: -110%;
     top: 90%;

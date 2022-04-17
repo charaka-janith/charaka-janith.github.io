@@ -2,7 +2,7 @@
     height: 300px;
     width: 300px;
     border-radius: 10px;
-    background-color: #003040;
+    background-color: black;
     display: inline-block;
 }
 .img-heading {
@@ -14,7 +14,7 @@
 .img-holder {
     width: 150px;
     height: 150px;
-    border: 3px #023e52 solid;
+    border: 3px #0f0 solid;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -38,7 +38,7 @@
     width: 200px;
     color: white;
     border-radius: 10px;
-    background-color: #023e52;
+    /*background-color: #0a0;*/
     text-align: center;
     padding: 10px;
 }

@@ -73,8 +73,8 @@ const pageNotFound = () => {
             <OtherLinks/>
             <Sugar
                 time={1000}
-                color={'#003040'}
-                background="#fff"
+                color={'black'}
+                background="white"
             />
             <ParticleBackground/>
         </main>

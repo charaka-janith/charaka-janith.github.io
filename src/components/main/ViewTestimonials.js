@@ -2,6 +2,7 @@
 import {db} from '../../Firebase';
 import React from "react";
 import {AnimationOnScroll} from 'react-animation-on-scroll';
+
 export default function ViewTestimonials() {
   const [testimonials, setTestimonials] = React.useState([]);
   const [index, setIndex] = React.useState(0);
@@ -45,16 +46,16 @@ export default function ViewTestimonials() {
             0 < testimonials.length ? (
               (
                 <div className="p-4 w-full mx-auto">
-                  <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                  <div className="h-full bg-gray-900 bg-opacity-40 p-8 rounded">
                     <p className="leading-relaxed mb-6 font-bold">"{testimonials[index].quote}"</p>
                     <div className="inline-flex items-center">
                       <img
-                        alt="testimonial"
-                        src={testimonials[index].profileImg}
-                        className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                          alt="testimonial"
+                          src={testimonials[index].profileImg}
+                          className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                       />
                       <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium font-bold text-text_dark">
+                    <span className="title-font font-medium font-bold text-hover_dark">
                       {testimonials[index].firstName} {testimonials[index].lastName}
                     </span>
                   </span>
