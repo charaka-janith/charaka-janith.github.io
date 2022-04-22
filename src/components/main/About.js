@@ -13,14 +13,22 @@ export default function About() {
               MYSELF
             </h1>
             <p className="mb-8 leading-relaxed text-lg text-white">
-            I am a software engineer who completed the CMJD - BSc(Hons) in Computer Science at IJSE. I also completed the CCSEH at CICRA Campus. I'm willing to complete the CEH with them too. I've completed my Software Engineering internship and have one year of work experience as an Associate Software Engineer with Tutopiya. After Tutopiya, I've been working with HCL Technologies as a TechBee and I'm completing my degree in BEng(Hons) Software Engineering with IIT as an Infoschol Student.
-            <br/>
-            <br/>
-            I love building things. While hard engineering problems are often intrinsically fun to tackle, I'm most attracted to solving real customer problems with a business justification. I have completed my higher education at Prince of Wales College & currently living in Piliyandala, Western Province, Sri Lanka. postal code - 10304. Looking forward to giving you many more IT solutions.
-            <br/>
-            <br/>
-            Yes, a Martial Artist too ..
-          </p>
+              I am a software engineer who completed the CMJD - BSc(Hons) in Computer Science at IJSE. I also completed
+              the CCSEH at CICRA Campus. I'm willing to complete the CEH with them too. I've completed my Software
+              Engineering internship and have one year of work experience as an Associate Software Engineer with
+              Tutopiya. After Tutopiya, I worked with Hotcat Technologies as a Senior Software Engineer for a short time
+              till I got a Scholarship for my degree. Currently, I've been working with HCL Technologies as a TechBee
+              and I'm completing my degree in BEng(Hons) Software Engineering with IIT as an Infoschol Student.
+              <br/>
+              <br/>
+              I love building things. While hard engineering problems are often intrinsically fun to tackle, I'm most
+              attracted to solving real customer problems with a business justification. I have completed my higher
+              education at Prince of Wales College & currently living in Piliyandala, Western Province, Sri Lanka.
+              postal code - 10304. Looking forward to giving you many more IT solutions.
+              <br/>
+              <br/>
+              Yes, a Martial Artist too ..
+            </p>
           </AnimationOnScroll>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
