@@ -13,7 +13,6 @@
 }
 :root {
   font-family: '1942' !important;
-  overflow-x: hidden;
 }
 /* end fonts */
 /* start tailwind */
@@ -40,7 +39,8 @@
 }
 /* end scroll-bar */
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden !important;
 }

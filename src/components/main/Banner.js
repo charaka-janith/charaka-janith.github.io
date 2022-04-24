@@ -25,13 +25,13 @@ export default function Banner() {
                 <br className="sm:inline-block"/>
                 Wanna know me ? well I love&nbsp;
                 <br className="sm:inline-block"/>
-                <Typical
-                    loop={Infinity}
-                    wrapper="b"
-                    steps={[
-                  'programming', 2000, 'pentesting', 2000, 'planning', 2000, 'martial arts', 2000, 'technologies', 2000, 'social works', 2000, 'algorithems', 2000, 'teamwork', 2000, 'coding', 2000, 'listening', 2000, 'walking', 2000, 'organizing', 2000, 'dogs', 2000, 'cars', 2000, 'teaching', 2000, 'anime', 2000
-                ]}
-              />
+                <Typical className="text-base"
+                         loop={Infinity}
+                         wrapper="b"
+                         steps={[
+                           'programming', 2000, 'pentesting', 2000, 'planning', 2000, 'martial arts', 2000, 'technologies', 2000, 'social works', 2000, 'algorithems', 2000, 'teamwork', 2000, 'coding', 2000, 'listening', 2000, 'walking', 2000, 'organizing', 2000, 'dogs', 2000, 'cars', 2000, 'teaching', 2000, 'anime', 2000
+                         ]}
+                />
             </h1>
             <p className="mb-8 leading-relaxed text-text_dark text-lg font-bold">
             Control can sometimes be an illusion. But sometimes you need illusions to gain control. Fantasy is an easy way to give meaning to the world
